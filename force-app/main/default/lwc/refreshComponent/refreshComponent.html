@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Owner Details">
+            <div class="slds-p-around_medium">
+
+                <p><strong>Name:</strong> {ownerName}</p>
+                <!--<p><strong>Owner ID:</strong> {ownerId}</p>-->
+                <p><strong>Email:</strong> {ownerEmail}</p>
+                <p><strong>Company Name:</strong> {ownerCompanyName}</p>
+                <p><strong>Profile:</strong> {ownerProfile}</p>
+            </div>
+            <div class="slds-align_absolute-center">
+                <lightning-button label="Navigate to Owner Detail" variant="brand" onclick={handleNavigation}></lightning-button> 
+            </div>
+    </lightning-card>
+</template>
